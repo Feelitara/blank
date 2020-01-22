@@ -14,8 +14,11 @@
       <div class="section header">
         <div class="photo">
           <picture>
-            <source media="(min-width: 401px)">
-
+            <source media="(min-width: 401px)"
+                    srcset='images/photo-big.jpg'>
+            <source media='(max-width: 400px)'
+                    srcset='images/photo-tall.jpg'>
+            <img src="images/photo-small.jpg">
           </picture>
         </div>
       </div>
