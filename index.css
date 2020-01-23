@@ -86,6 +86,10 @@ p:first-of-type {
   margin-top: 3em
 }
 
+p:last-of-type {
+  margin-bottom: 3em;
+}
+
 section {
   margin: 0 auto;
   width: 50%;
@@ -93,6 +97,14 @@ section {
 
 .selected {
   color: #8B00FF;
+}
+
+.footer {
+  background-color: #390071;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #8B8B8B;
+  text-align: center;
 }
 
 @media only screen and (min-width: 750px) {
@@ -107,5 +119,15 @@ section {
 
   nav li:nth-of-type(2n) {
     border-left: none;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  section {
+    width: 100%;
+  }
+  .hero {
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
 }
