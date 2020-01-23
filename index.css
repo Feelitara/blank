@@ -82,17 +82,19 @@ p {
   display: block;
 }
 
-p:first-of-type {
-  margin-top: 3em
-}
-
-p:last-of-type {
-  margin-bottom: 3em;
-}
-
 section {
   margin: 0 auto;
   width: 50%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  overflow: hidden;
+}
+
+img {
+  overflow: hidden;
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 .selected {
