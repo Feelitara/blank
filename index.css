@@ -107,6 +107,20 @@ section {
   margin-left: 0;
 }
 
+.quellen a:link,
+.quellen a:visited {
+  text-decoration: none;
+  color: #2E005C;
+}
+
+.quellen a:hover,
+.quellen a:visited:hover,
+.quellen a:active,
+.quellen a:visited:active {
+  color: #4FCEED;
+  text-decoration: none;
+}
+
 .images {
   line-height: 0;
 
