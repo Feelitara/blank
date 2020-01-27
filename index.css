@@ -86,14 +86,6 @@ p {
   margin-right: 1em;
 }
 
-.content p {
-  margin-bottom: 3.2em;
-}
-
-.content p:first-of-type {
-  margin-bottom: 1em;s
-}
-
 section {
   margin: 0 auto;
   width: 50%;
