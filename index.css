@@ -87,7 +87,7 @@ p {
 }
 
 .content p {
-  margin-bottom: 3.5em;
+  margin-bottom: 3.2em;
 }
 
 .content p:first-of-type {
@@ -123,6 +123,10 @@ section {
   margin-bottom: 1em;
   margin-left: 1em;
   max-width: 25%;
+}
+
+.content img.right {
+  float: right;
 }
 
 .selected {
