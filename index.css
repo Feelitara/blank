@@ -282,4 +282,8 @@ a.lightbox-close:after {
     -webkit-column-count: 2;
     column-count:         2;
   }
+  .content img {
+    max-width: 50%;
+    margin-bottom: 0;
+  }
 }
